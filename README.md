@@ -50,5 +50,5 @@ Enter your SQL queries interactively.
 
 🔎 Example Query
 ```bash
-SELECT * FROM users;
+SELECT * FROM Table_Name
 ```
