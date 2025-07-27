@@ -20,9 +20,9 @@ Replace TOKEN and URL values with yours:
 TOKEN = 'your_turso_auth_token_here'
 URL = 'https://your-database-name.turso.io/v2/pipeline'
 ```
-Replace 'your_turso_auth_token_here' with your actual Turso API token.
+Replace **'your_turso_auth_token_here'** with your actual Turso API token.
 
-Replace 'https://your-database-name.turso.io/v2/pipeline' with your database URL.
+Replace **'https://your-database-name.turso.io/v2/pipeline'** with your database URL.
 
 If your Turso URL starts with **libsql://**, you must replace **libsql://** with **https://**
 
