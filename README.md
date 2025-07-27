@@ -17,7 +17,7 @@ A simple Python command-line tool for querying [Turso](https://turso.tech/) SQLi
 
 ---
 
-Replace TOKEN and URL values with yours:
+Replace the TOKEN and URL values with your own:
 ```python
 TOKEN = 'your_turso_auth_token_here'
 URL = 'https://your-database-name.turso.io/v2/pipeline'
