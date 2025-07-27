@@ -19,20 +19,27 @@ Install required libraries:
 
 ```bash
 pip install requests
+```
 
-If your Turso URL starts with libsql://, you must replace libsql:// with https://
-Append /v2/pipeline to the end
+If your Turso URL starts with **libsql://**, you must replace **libsql://** with **https://**
+Append **/v2/pipeline** to the end
 
 Example:
-libsql://my-db-name.turso.io  -> becomes: https://my-db-name.turso.io/v2/pipeline
-Refer to Turso HTTP SDK Quickstart for more details.
+**libsql://my-db-name.turso.io**  -> becomes: **https://my-db-name.turso.io/v2/pipeline**
+Refer to [Turso HTTP SDK Quickstart](https://docs.turso.tech/sdk/http/quickstart) for more details.
 
 ## Run the tool
 
+```bash
 python turso_sql_client.py
+```
 You'll see a prompt like this:
+```bash
 sql: >
+```
 Enter your SQL queries interactively.
 
 🔎 Example Query
+```bash
 SELECT * FROM users;
+```
