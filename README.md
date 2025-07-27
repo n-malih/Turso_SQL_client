@@ -15,6 +15,8 @@ A simple Python command-line tool for querying [Turso](https://turso.tech/) SQLi
 - Python 3.7+
 - `requests`
 
+---
+
 Replace TOKEN and URL values with yours:
 ```python
 TOKEN = 'your_turso_auth_token_here'
@@ -32,6 +34,8 @@ Example:
 **libsql://my-db-name.turso.io**  -> becomes: **https://my-db-name.turso.io/v2/pipeline**
 
 Refer to [Turso HTTP SDK Quickstart](https://docs.turso.tech/sdk/http/quickstart) for more details.
+
+---
 
 ## Run the tool
 
